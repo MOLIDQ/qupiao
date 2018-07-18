@@ -1,0 +1,143 @@
+.checking{
+    display: flex;
+    overflow: hidden;
+    .show_checking{
+        width: 100%;
+        overflow: hidden;
+        .check_main{
+            margin:0 auto;
+            width:3.05rem;
+            height:3.55rem;
+            background-color: #fff;
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            img{
+                width:1.3rem;
+                height:0.78rem;
+            }
+            .check_text{
+                width:2.8rem;
+                height:0.6rem;
+                color:#666666;
+                font-size:0.1rem;
+                margin:0.05rem 0;
+            }
+            .check_icon{
+                width:2rem;
+                height:0.8rem;
+                display:flex;
+                justify-content: space-around;
+                .icon_left{
+                    width:0.4rem;
+                    height:0.4rem;
+                    .fa{
+                        width:0.4rem;
+                        height:0.4rem;
+                        color:#f283a9;
+                        text-align: center;
+                        line-height: 0.4rem;
+                        font-size:0.3rem;
+                        border-radius: 50%;
+                        border:0.008rem solid #f283a9;
+                        margin-bottom:0.08rem;
+                    }
+                    .icon_left_text{
+                        font-size:0.13rem;
+                        color:#f283a9;
+                    }
+                }
+                 .icon_right{
+                    width:0.4rem;
+                    height:0.4rem;
+                    .fa{
+                        width:0.4rem;
+                        height:0.4rem;
+                        text-align: center;
+                        line-height: 0.4rem;
+                        font-size:0.3rem;
+                        border-radius: 50%;
+                        border:0.008rem solid;
+                        margin-bottom:0.08rem;
+                    }
+                    .icon_right_text{
+                        font-size:0.13rem;
+                       
+                    }
+                }
+               
+            }
+            input{
+                width:90%;
+                height:0.3rem;
+                margin:0.2rem auto;
+                font-size:0.13rem;
+                border:none;
+                border-bottom:1px solid #cfcfcf;
+            }
+            .check_immed{
+                    width:1.45rem;
+                    height:0.4rem;
+                    margin:0 auto 0.2rem;
+                    border:1px solid #e5004f;
+                    border-radius:0.5rem;
+                    color:#e5004f;
+                    background-color:#fff;
+            }
+        }
+        .check_footer{
+            height: 100px;
+            width:100%;
+            background-color: #282828;
+            color:#fff;
+            font-size: 0.1rem;
+            padding-top:0.1rem;
+            position:fixed;
+            left:0;
+            bottom:0;
+            .footer_text{
+                height: 0.5rem;
+                width:58%;
+                margin: 0 auto;
+                box-sizing: border-box;
+                border-bottom:1px solid #444;
+                .footer_logo{
+                    float:left;
+                    width:0.6rem;
+                    height:0.45rem;
+                    background:url(/img/sp3.png) no-repeat;
+                    background-size:0.6rem;
+                    color:red;
+                    background-position: 1px -378px;
+                }
+                .footer_phone{
+                    float:right;
+                    a{
+                        display: block;
+                        font-size:0.13rem;
+                        color:#fff;
+                        margin-bottom:0.05rem;
+                        strong{
+                            color: #e5004f;
+                            font-style: italic;
+                            font-size:0.12rem;
+                        }
+                    }
+                    .footer_company{
+                        color: #fff;
+                        font-size:0.13rem;
+                    }
+                    
+                }
+            }
+            .copyright{
+                width:70%;
+                font-size:0.12rem;
+                color:#656565;
+                text-align:center;
+                margin:0 auto;
+                padding-top:0.02rem;
+            }
+         }
+    }
+}

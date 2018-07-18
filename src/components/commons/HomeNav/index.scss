@@ -1,0 +1,41 @@
+.homenav{
+    width: 100%;
+    height: 0.6rem;
+    background: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 3.75rem;
+        .left_show, .right_movie{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1.8rem;
+            height: 0.4rem;
+            border-top-right-radius:20px;
+            border-top-left-radius:20px;
+            border-bottom-right-radius:20px;
+            border-bottom-left-radius:20px;
+            font-size: .14rem;
+            color:#fff;
+            b{
+                background-image: url(../../../assets/img/sp2.png);
+                width: 0.25rem;
+                height: 0.22rem; 
+                display: inline-block;
+                margin-right: .05rem;
+               vertical-align: middle;
+            }
+        }
+        .left_show{
+           b{
+               background-position: -.33rem -20.33rem;
+               
+           }
+        }
+        .right_movie{
+            b{
+                background-position: -.33rem -20.86rem;
+            }
+         }
+}

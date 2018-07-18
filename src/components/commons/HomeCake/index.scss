@@ -1,0 +1,101 @@
+.home_cake{
+    width: 100%;
+    height: atuo;
+    padding:.1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fcf0f0;
+    min-width: 3.75rem;
+            .home_cake_item{
+                width: 20%;
+                height: 0.58rem;
+                margin-bottom: .1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                    p{
+                        font-size: 0.12rem;
+                        color:#000;
+                    }
+                    em{
+                        width: 0.35rem;
+                        height: 0.35rem;
+                        background-repeat: no-repeat;
+                        display: block; 
+                        background-size: .35rem auto;
+                    }
+                    
+            }
+            .home_cake_item:nth-child(1)>em{   
+                background-position: 0rem 0rem;
+            }
+            .home_cake_item:nth-child(2)>em{
+                background-position: 0rem -.5rem;
+            }
+            .home_cake_item:nth-child(3)>em{
+                background-position: 0rem -1rem;
+            }
+            .home_cake_item:nth-child(4)>em{
+                background-position: 0rem -1.5rem;
+            } 
+            .home_cake_item:nth-child(5)>em{
+                background-position: 0rem -2rem;
+            }
+            .home_cake_item:nth-child(6)>em{
+                background-position: 0rem -2.5rem;
+            }
+            .home_cake_item:nth-child(7)>em{
+                background-position: 0rem -3rem;
+            }
+            .home_cake_item:nth-child(8)>em{
+                background-position: 0rem -3.5rem;
+            }
+            .home_cake_item:nth-child(9)>em{
+                background-position: 0rem -4rem;
+            }
+            .home_cake_item:nth-child(10)>em{
+                background-position: 0rem -4.5rem;
+            }
+            .movie_cake_item{
+                width: 1.23rem;
+                height: 1.06rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content:center;
+                    p{
+                        font-size: 0.12rem;
+                        color:#000;
+                        margin-bottom: .1rem;
+                    }
+                    span{
+                        width: 0.56rem;
+                        height: 0.56rem;
+                        background-repeat: no-repeat;
+                        display: flex; 
+                        background-size:cover;
+                        background-color: #fff;
+                        border-radius: 50%;
+                        align-items: center;
+                        justify-content: center;
+                                em{
+                                    height: 0.25rem;
+                                    width: 0.56rem;
+                                    background-repeat: no-repeat;
+                                    display: block; 
+                                    background-size:cover;
+                                }
+                    }
+            }
+            .movie_cake_item:nth-child(1)>span>em{
+                background-position: .13rem -2.16rem;
+            }
+            .movie_cake_item:nth-child(2)>span>em{
+                background-position: .16rem -3.27rem;
+            }
+            .movie_cake_item:nth-child(3)>span>em{
+                background-position: .12rem -2.67rem;
+            }
+            
+}

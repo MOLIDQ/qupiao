@@ -1,0 +1,99 @@
+.TabBar{
+    background-color: #202020;
+    font-size: 14px;
+    height:6.67rem;
+    width: 80%;
+        .up{
+            width: 100%;
+            height: 35%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+                a{
+                    width: 1.51rem;
+                    height: 0.35rem;
+                    color: #fff;
+                    border-top-right-radius:20px;
+                    border-top-left-radius:20px;
+                    border-bottom-right-radius:20px;
+                    border-bottom-left-radius:20px;
+                    border:none;
+                    font-size: .14rem;
+                    line-height: 0.35rem;
+                    text-align: center;
+                }
+                a:nth-child(1){
+                    background: #d5094e;
+                    margin-top:8%; 
+                }
+                a:nth-child(2){  
+                    border: 1px solid #d5094e;
+                    margin-top:4%;
+                    background-color: #202020;
+                }
+                img{
+                    width: 0.66rem;
+                    height: 0.69rem;
+                     position: absolute;
+                    left:0;
+                     top:1.51rem;
+                }
+        }
+        .down{
+            width: 3rem;
+            height: 3.8rem;
+                    a{
+                        width: 3rem;
+                        height: 0.58rem;
+                        border-top: 1px solid #3d3d3d;
+                        color:#fff;
+                        display: flex;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        font-size: .14rem;
+                            P{
+                                text-align: right;
+                                padding-right:.1rem;
+                                width: 2.85rem;
+                                height: 0.3rem;
+                                line-height: 0.3rem;
+                                margin-bottom: .1rem;
+                            }
+                    }
+                    .active{
+                        border-left: 5px solid #e5004f;
+                    }
+                    a>i{
+                        width: 0.6rem;
+                        height: 0.21rem;
+                        display: inline-block;
+                        margin:0 .1rem;
+                        vertical-align: middle;
+                        background: url(../../../assets/img/sp3.png);
+                        background-size:cover;
+                    }
+                    a:nth-child(1)>i{
+                        background-position: -.38rem -1.2rem;
+                    }
+                    a:nth-child(2)>i{
+                        background-position: -.38rem -.7rem;
+                    }
+                    a:nth-child(3)>i{
+                        background-position: -.38rem -1.75rem;
+                    }
+                    a:nth-child(4)>i{
+                        background-position: -.38rem -2.04rem;
+                    }
+                    a:nth-child(5)>i{
+                        background-position: -.38rem -.20rem;
+                    }
+                    a:nth-child(6)>i{
+                        background-position: -.38rem -1.48rem;
+                    }
+                    a:last-child{
+                        width: 3rem;
+                        height: 0.9rem;
+                        padding-top: .18rem;
+                    }
+        }
+}

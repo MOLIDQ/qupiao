@@ -1,0 +1,144 @@
+.show_list{
+    //热门电影
+    width: 100%;
+    height: 100%;
+    min-width: 3.75rem;
+    .show_movie{
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        min-width: 3.75rem;
+        .title{
+            width: 100%;
+            height: 0.35rem;
+            margin: .1rem 0 0;
+            display: flex; 
+            padding: 0rem .2rem;
+            justify-content: space-between;
+            background:#f2f2f2;
+            min-width: 3.75rem; 
+             span{
+                 font-size: .15rem;
+                 color: #5b5b5b;
+             }
+        }
+        .show_item{
+             width:3.43rem;
+             height: 1.14rem;
+            margin-left:.15rem;
+            padding: .12rem .14rem .12rem 0;
+            display: flex;
+            justify-content: space-between;
+            min-width: 3.75rem;
+                dt{
+                    width: 0.64rem;
+                    height: 0.9rem;
+                        img{
+                            width: 0.64rem;
+                            height: 0.9rem;
+                        }
+                }
+                dd{
+                    width: 2.15rem;
+                    height: 0.88rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                        p{
+                            font-size: .13rem;
+                            color:#666;
+                                i{
+                                    span{
+                                        font-weight: 700;
+                                        color: #faaf00;
+                                        font-size: 15px;
+                                    }
+                                }
+                                
+                        }
+                        p:nth-child(1){
+                            font-size: .17rem;
+                            color:#333;
+                            height: 0.22rem;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+                        p:nth-child(3){
+                            height: 0.22rem;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+                }
+        }
+        
+     }
+     //热门演出
+     .show_hot{
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        .title{
+            width: 100%;
+            height: 0.35rem;
+            margin: .1rem 0 0;
+            display: flex; 
+            padding: 0rem .2rem;
+            justify-content: space-between;
+            background: #f2f2f2;
+             span{
+                 font-size: .15rem;
+                 color: #5b5b5b;
+                }
+        } 
+        .show_hot_item{
+                height: 1.14rem;
+                margin-left:.15rem;
+                padding: .12rem .14rem .12rem 0;
+                background: #fff;
+                display: flex;
+                justify-content: space-between;
+                width:3.5rem;
+                    .img-box {
+                        width: 0.64rem;
+                        height: 0.9rem;
+                            img{
+                                width: 0.64rem;
+                                height: 0.9rem;
+                            }
+                    }
+                    .info-box {
+                        width: 2.30rem;
+                        height: 0.88rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .info-title {
+                            font-size: 0.14rem;
+                            color: #333;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+                        .time {
+                            font-size: 0.14rem;
+                        }
+                        .city-address {
+                            font-size: 0.14rem;
+                        }
+                        .price {
+                            color: #faaf00 ;
+                            font-size: 0.14rem;
+                            span {
+                                font-size: 0.14rem;
+                            }
+                        }
+                    }
+                }
+        
+               
+        
+     }
+    
+}

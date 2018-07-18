@@ -1,0 +1,29 @@
+
+.swiper-container {
+        width: 100%;
+        height:1.3rem; 
+        min-width: 3.75rem;
+        .swiper-wrapper{
+            width: 100%;
+            height: 1.3rem;
+            .swiper-slide{
+                width: 100%;
+                height: 1.3rem;
+            }   
+            .swiper-slide>img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+        .swiper-pagination-bullet {
+            width: 0.08rem;
+            height: 0.08rem;
+            background: #000;
+            opacity: .2;
+        }
+        .swiper-pagination-bullet-active {
+            background:skyblue;
+        }
+} 
+
